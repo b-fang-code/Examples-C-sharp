@@ -23,7 +23,7 @@ void PrintArray(int[] col)
     }
 }
 
-int IndexOf(int[] collection, int find)
+int IndexOf(int[] collection, int find) // метод нахождения индекса значения find (в данном случае 4)
 {
     int count = collection.Length;
     int index = 0;
